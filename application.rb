@@ -16,6 +16,11 @@ class Application
       "<h1>User Page</h1><p>User ID: #{id}</p>"
     end
 
+    router.get("/products/:sku") do |req|
+      sku = req.params[:sku]
+      "<h1>Product Page</h1><p>Product SKU: #{sku}</p>"
+    end
+
     router.post("/submit") do |req|
       "You submitted: #{req.params.inspect}"
     end

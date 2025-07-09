@@ -28,6 +28,7 @@ This project demonstrates how HTTP routing can be implemented without Rails or S
 
 - [http://localhost:9292](http://localhost:9292)
 - [http://localhost:9292/users/123](http://localhost:9292/users/123)
+- [http://localhost:9292/products/abc123](http://localhost:9292/products/abc123)
 - [http://localhost:9292/about](http://localhost:9292/about)
 
 Visit the above URLs in your browser to see the router in action.
